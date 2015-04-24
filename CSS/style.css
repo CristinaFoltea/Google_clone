@@ -125,6 +125,9 @@ nav a{
     width:70px;
     display:inline-block;
     background-color:#2A67F4;
+		border: 0px;
+		box-shadow: 0 0 1px #2A67F4;
+		-webkit-box-shadow: 0 0 1px #2A67F4;
   }
   footer{
     clear:both;
