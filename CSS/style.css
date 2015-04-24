@@ -46,36 +46,99 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html{
+  overflow:scroll;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+}
+a{
+
+  color:black;
+}
 nav {
   height:100px;
 }
 nav li{
-  padding-left:35%;
+  padding-left:75%;
 }
 
 nav a{
   text-decoration:none;
   display:block-inline;
   float:left;
+  padding:20px 10px;
 
+  }
+  a.txt{
+    margin-top:10px;
+  }
+  section{
+    text-align:center;
+    padding-top:7%;
+    width:600px;
+
+    margin:auto auto;
   }
 
   #logo{
+    align:center;
     width:269px;
     height:95px;
   }
 
-  input#search_bar{
-    width : 500px;
-    height: 100px;
+  input[type=search]{
+    display:inline-block;
+    width :600px;
+    height:40px;
+    margin-top:20px;
   padding:2px 50px 2px 2px;
+  border: 1px solid #adadad;
+
+  }
+  input[type=search]:hover{
+  border-color: #2A67F4;
   }
 
   div.s_b{
     width:500px;
+    margin-left:150px;
 
   }
    .s_b a{
      display:inline-block;
      float:left;
+
   }
+  button[type="bt"]{
+    font-weight:bold;
+    margin:15px 10px;
+    height:30px;
+    width:110px;
+  }
+
+  button[type=s_i]{
+    color:white;
+    padding-top:4%;
+    height:30px;
+    width:70px;
+    display:inline-block;
+    background-color:blue;
+  }
+  footer{
+    clear:both;
+    width:100%;
+    height:50px;
+    margin-top:21.5%;
+    background-color:#EEEEEE;
+  }
+  footer a{
+    padding:20px 25px 10px 25px;
+    display:inline-block;
+    float:left;
+    text-decoration:none;
+  }
+ a.f_right{
+   padding-left:60%;
+ }
